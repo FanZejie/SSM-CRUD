@@ -2,7 +2,7 @@
 ## 项目简介
 该项目使用SSM框架实现最基本的增删改查,可以帮助刚刚学习完SSM框架的朋友进行复习  
 ### 项目完成预览图
-
+![image](https://raw.githubusercontent.com/FanZejie/SSM-CRUD/master/img/index.png)
 ### 项目亮点
 关于项目亮点只能说是我个人认为,可能大家已经对此习以为常.  
 1. MyBatis逆向工程,自动生成JavaBean,以及Mapper文件  
