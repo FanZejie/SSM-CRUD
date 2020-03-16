@@ -9,19 +9,16 @@
 页面加载时从数据库中取出员工信息分页展示,具备完整分页跳转功能(点击跳转,当前页高亮,首页时前一页禁用等)  
 ##### 增
 点击新增按钮,弹出模态框,部门信息要从数据库中取出并展示在这里
-![image](https://raw.githubusercontent.com/FanZejie/SSM-CRUD/master/img/add.png)
 同时要进行数据校验,分为前端数据校验和后端数据校验  
 每次点开弹窗要清空弹窗内容,初步防止重复提交数据  
 点击保存按钮保存员工到数据库,并跳转到该页面,可以省去用户自己刷新  
 ##### 改
 与新增差不多,有以下要注意  
-![image](https://raw.githubusercontent.com/FanZejie/SSM-CRUD/master/img/edit.png)
 点击按钮时,按钮有一个id用来标识当前员工,  
 弹窗内有按钮id对应的员工信息,  
 姓名不能修改,邮箱做前后端验证  
 点击更新按钮,提交修改数据,跳转到修改员工的页面,相当于是刷新了下页面,提高用户体验  
 ##### 删
-![image](https://raw.githubusercontent.com/FanZejie/SSM-CRUD/master/img/delete.png)
 分为单一删除和批量删除  
 点击删除弹出弹框询问是否确认删除[xxx,xxx]
 点击确认完成删除,跳转到操作页面
