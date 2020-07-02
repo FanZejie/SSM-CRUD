@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.45</version>
+			<version>8.0.16</version>
 		</dependency>
 		<!--以上基本的模块就引用完了,下面的模块是项目中用到了再引用的 -->
 		<!--这三个模块是最常用的:jstl,servlet-api,junit -->
